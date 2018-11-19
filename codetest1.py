@@ -1,3 +1,5 @@
+import sys
+
 def check_indent(s1, cur, prev, laststr):
     ind = str(cur)
     prev = len(s1)
@@ -60,6 +62,7 @@ def format_text(lst):
             print "".ljust(l)+line
 
 if __name__ == '__main__':
-    file = "C:\Users\mns1\Documents\codetest.txt"
-    res = read_lines_from_file(file)
+    #filen = "C:\Users\mns1\Documents\codetest.txt"
+    filen = sys.argv[1]
+    res = read_lines_from_file(filen)
     format_text(res)
