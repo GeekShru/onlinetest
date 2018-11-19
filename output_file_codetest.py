@@ -1,4 +1,4 @@
-C:\Python27\Project\Scripts\python.exe C:/Users/mns1/PycharmProjects/Project1/codetest.py
+
 1 This is an outline
    
  + It's not a very good outline
@@ -49,7 +49,7 @@ C:\Python27\Project\Scripts\python.exe C:/Users/mns1/PycharmProjects/Project1/co
     
  - Text
     
-3.1.1 More Numbers
+3.2.1 More Numbers
     
  - Blah
 
